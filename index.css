@@ -175,7 +175,7 @@ body {
 
 .user-panel-student-topic {
     font-size: 25px;
-    margin-left: 70px;
+    margin-left: 60px;
     margin-top: 40px;
     margin-bottom: 20px;
     color: #3742fa;
@@ -229,4 +229,11 @@ body {
     padding: 5px;
     padding-inline: 10px;
 
+}
+
+@media screen and (max-width: 800px){
+    .user-panel-student-topic{
+        margin-left: 0;
+        text-align: center;
+    }
 }
