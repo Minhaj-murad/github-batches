@@ -12,52 +12,51 @@
         hover                       :   #ffa502 or rgb(255, 165, 2)     (hover)
 
 =================================================================================================================*/
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Roboto Condensed';
 
 }
 
-.content-image {
+/* batches CSS starts here */
+.user-panel-student-batches-content-image{
     border-radius: 5px;
 }
 
-.topicname {
-    width: 220px;
-    margin-top: 40px;
+.user-panel-student-batches-topicname{
+   text-align: center;
+   margin-top: 10px;
+   text-decoration: none;
 
 }
 
-.topichead {
+.user-panel-student-batches-topichead{
     font-size: 15px;
     text-align: center;
+
 }
 
-.video-link {
-    text-decoration: none;
-}
 
-.playlists-container .title {
-    color: #1a1a1a;
-    text-align: center;
-    margin-bottom: 10px;
-}
 
-.content {
+.user-panel-student-batches-content {
     position: relative;
     width: 180px;
     margin: auto;
     overflow: hidden;
 }
 
-.owl-item.active {
+.user-panel-student-batches-owl-item.active {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.content .content-overlay {
+.user-panel-student-batches-content .user-panel-student-batches-content-overlay {
     background: rgba(0, 0, 0, 0.7);
     position: absolute;
     height: 99%;
@@ -72,17 +71,17 @@ body {
     transition: all 0.4s ease-in-out 0s;
 }
 
-.content:hover .content-overlay {
+.user-panel-student-batches-content:hover .user-panel-student-batches-content-overlay {
     opacity: 1;
 }
 
-.content-image {
+.user-panel-student-batches-content-image {
 
     width: 150px;
     height: 150px;
 }
 
-.content-details {
+.user-panel-student-batches-content-details {
     position: absolute;
     text-align: center;
     padding-left: 1em;
@@ -99,13 +98,13 @@ body {
     transition: all 0.3s ease-in-out 0s;
 }
 
-.content:hover .content-details {
+.user-panel-student-batches-content:hover .user-panel-student-batches-content-details {
     top: 50%;
     left: 50%;
     opacity: 1;
 }
 
-.content-details h3 {
+.user-panel-student-batches-content-details h3 {
     color: #fff;
     font-weight: 500;
     letter-spacing: 0.15em;
@@ -113,7 +112,7 @@ body {
     text-transform: uppercase;
 }
 
-.play-btn {
+.user-panel-student-batches-play-btn {
     text-decoration: none;
     background: none;
     color: #fff;
@@ -122,58 +121,58 @@ body {
     outline: none;
 }
 
-.playall {
+.user-panel-student-batches-playall {
     margin-left: 5px;
 }
 
-.content-details p {
+.user-panel-student-batches-content-details p {
     color: #fff;
     font-size: 0.8em;
 }
 
-.fadeIn-top {
+.user-panel-student-batches-fadeIn-top {
     top: 20%;
 }
 
-.subjects {
+.user-panel-student-batches-subjects {
     margin-top: 20px;
 }
 
-.headpage {
+.user-panel-student-batches-headpage {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.user-panel-student-topic {
+.user-panel-student-batches-topic {
     text-align: start;
 }
 
-.wrapper .owl-prev,
-.wrapper .owl-next {
+.user-panel-student-batches-wrapper .owl-prev,
+.user-panel-student-batches-wrapper .owl-next {
     position: absolute;
     top: 25%;
     font-size: 2rem;
 
 }
 
-.wrapper .owl-prev {
+.user-panel-student-batches-wrapper .owl-prev {
     left: 0;
 }
 
-.wrapper .owl-next {
+.user-panel-student-batches-wrapper .owl-next {
     right: 0;
 }
 
-.wrapper .owl-dots {
+.user-panel-student-batches-wrapper .owl-dots {
     display: none;
 }
 
-.user-panel-student-videos {
+.user-panel-student-batches-videos {
     margin-top: 40px;
 }
 
-.user-panel-student-topic {
+.user-panel-student-batches-topic {
     font-size: 25px;
     margin-left: 60px;
     margin-top: 40px;
@@ -182,17 +181,17 @@ body {
     font-weight: bold;
 }
 
-.user-panel-student-options {
+.user-panel-student-batches-options {
     text-decoration: none;
     color: #3742fa;
     font-weight: bold;
 }
 
-.user-panel-student-options:hover {
+.user-panel-student-batches-batches-options:hover {
     color: #ffa502;
 }
 
-#left-arrow {
+#user-panel-student-batches-left-arrow {
     color: #fff;
     border-radius: 50%;
     background-color: #1a1a1a;
@@ -202,7 +201,7 @@ body {
 }
 
 
-#right-arrow {
+#user-panel-student-batches-right-arrow {
     color: #fff;
     border-radius: 50%;
     background-color: #1a1a1a;
@@ -212,7 +211,7 @@ body {
 
 }
 
-#right-arrow:hover {
+#user-panel-student-batches-right-arrow:hover {
     color: #fff;
 
     background-color: #4c4b4b;
@@ -222,7 +221,7 @@ body {
 
 }
 
-#left-arrow:hover {
+#user-panel-student-batches-left-arrow:hover {
     color: #fff;
 
     background-color: #4c4b4b;
@@ -232,7 +231,7 @@ body {
 }
 
 @media screen and (max-width: 800px){
-    .user-panel-student-topic{
+    .user-panel-student-batches-batches-topic{
         margin-left: 0;
         text-align: center;
     }
